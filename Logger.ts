@@ -9,5 +9,7 @@ export class FileLogger implements Logger {
 }
 
 export class DatabaseLogger implements Logger {
-  // TODO: Fill in the missing code to adhere to the Dependency Inversion Principle
+  public log(message: string): void {
+    console.log(`Logging to database: ${message}`);
+  }
 }

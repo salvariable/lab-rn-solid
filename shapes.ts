@@ -1,4 +1,4 @@
-export  class Shape {
+export class Shape {
   protected type: string;
 
   constructor(type: string) {
